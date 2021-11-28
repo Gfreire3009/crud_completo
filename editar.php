@@ -22,7 +22,7 @@ if (!empty($_GET['id'])); {
       $Obs = $user_data['Obs'];
     }
   } else {
-    header('Location: sistema.php');
+    header('Location: listar.php');
   }
 }
 ?>
